@@ -1,3 +1,4 @@
+/** @class Todo modelini boshqarish uchun */
 class Todo {
   constructor(text) { 
     this.id = Date.now(); 
