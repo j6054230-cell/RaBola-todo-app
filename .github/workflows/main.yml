@@ -1,8 +1,13 @@
-name: CI Artifact Pipeline
+kname: CI Artifact Pipeline
 
 on:
   push:
-    branches: [ "main", "master", "develop" ] # "develop" qo'shildi!
+    branches: [ "main", "master", "develop" ]
+
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
