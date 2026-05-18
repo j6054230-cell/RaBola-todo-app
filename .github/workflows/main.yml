@@ -2,8 +2,7 @@ name: CI Artifact Pipeline
 
 on:
   push:
-    branches: [ "main", "master" ] # Har ikkala branch uchun ham ishlayveradi
-
+    branches: [ "main", "master", "develop" ] # "develop" qo'shildi!
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
