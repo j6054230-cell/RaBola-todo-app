@@ -1,4 +1,4 @@
-kname: CI Artifact Pipeline
+name: CI Artifact Pipeline
 
 on:
   push:
